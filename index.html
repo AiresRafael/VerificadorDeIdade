@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> <!--CORPO DO MEU SITE-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Verificando Idade</title>
+
+<!------------CSS LINKADO AQUI!---------->
+    <link rel="stylesheet" href="style.css">
+
+
+</head
+>
+<!--CCONTEUDO DO MEU SITE-->
+<body>
+
+    <!--CABEÇALHO DO MEU SITE-->
+    <header>
+
+        <h1> 
+            Verificador de Idade
+        </h1>
+
+    </header>
+
+
+    <!--SEÇÃO INTERNA-->
+    <section>
+
+        <div>
+            <p>
+                Ano de Nascimento:
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+
+            <p>
+                Sexo:
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            
+            <p class="botao">
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+
+
+        <div id="res">
+            Preencha os dados acima para ver o resultado
+        </div>
+
+    </section>
+
+    <!--RODAPÉ DO SITE-->
+    <footer>
+
+        <p>&copy; 2019 Rafael Aires</p>
+
+    </footer>
+
+
+    <!--SCRIPTS DO MEU SITE-->
+    <script src="script.js"></script>
+
+</body>
+</html>
